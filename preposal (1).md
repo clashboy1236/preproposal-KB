@@ -10,4 +10,4 @@ Kate Orlovskiy and Meira Galapo
 
 ## Do you have any questions of your own?
 
-no
+Nope
