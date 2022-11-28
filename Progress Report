@@ -1,0 +1,31 @@
+# Status Report
+
+#### Your name
+
+Keith Bunn
+
+#### Your section leader's name
+
+Xinwen Zhang
+
+#### Project title
+
+Philadelphia Vaccine Forecaster
+
+***
+
+Short answers for the below questions suffice. If you want to alter your plan for your project (and obtain approval for the same), be sure to email your section leader directly!
+
+
+
+#### What have you done for your project so far?
+
+We have gotten a fair amount of work done for our project so far. We have written the HTML code for our website, including for multiple separate pages on the website. This includes code for the front page, which introduces the concept of our website and has a disclaimer regarding the storage of the user’s files. We have also written HTML code for a drop down menu that navigates to different pages on our website, such as the page where the upload button will be for the user to upload their immunization record, as well as a page where the user can learn about different viruses that the vaccines in consideration protect against. Additionally, we have written Python code that converts the user’s Immunization Record, which is in the format of a pdf, to CSV format. We have also written code that reads the pdf, and used this to write a function that gets the user’s age, since our website is for Philadelphia adults ages 19 up. We also wrote code that reads the CSV line by line and splits the fields by commas, then appended the relevant fields to lists. We then used these lists, in combination with indexing, to create if else statements that print out vaccination recommendations for the patient either based on the number of doses they’ve gotten of a particular vaccine , or the most recent date that a vaccine was received. The only date dependent vaccines were Influenza and TDap. The rest were dose dependent.
+
+#### What have you not done for your project yet?
+
+We have not yet written code for the upload button to appear on our website. Additionally, we have not yet been able to transfer our Python code into HTML format so that it can run on our website. We are currently working to get these tasks figured out.
+
+#### What problems, if any, have you encountered?
+
+The largest problem we have encountered is that we are unable to transfer our Python code to our website. We are trying to use pyscript to do this, but we have run into issues because pyscript does not contain some of the Python libraries that we need for our code, such as tabula. We are not yet sure how to resolve this, but are currently attempting to find a solution. The other problem we encountered is when converting the Immunization Record pdf to a CSV format, if the Record has more than a page, the fields in the file get shifted over by a single cell, which means the fields no longer reflect the information we need in our lists correctly. We are currently working to resolve this issue as well. The last issue is that we realized that in the first field of the pdf, that lists vaccine names, some of the vaccine names contain commas, which also creates issues for the lists that we then use for indexing. We have found a workaround for this issue.
